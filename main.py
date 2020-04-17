@@ -7,7 +7,7 @@ run_with_ngrok(app)
 
 @app.route("/")
 def index():
-    return "Привет от приложения Flask"
+    return "Привет, мир!"
 
 
 if name == 'main':
