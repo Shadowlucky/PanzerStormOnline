@@ -1,2 +1,1 @@
 flask==1.1.1
-flask-ngrok==0.0.25
