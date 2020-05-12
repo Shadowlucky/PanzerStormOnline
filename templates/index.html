@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Сдесь может быть ваша реклама и ссылка на наш гид</h1>
+{% for item in news%}
+<div class="col-md6 border rounded">
+    <h2>{{item.title}}</h2>
+    <div>
+        {{item.content}}
+    </div>
+    <div>
+        Сервера - {{item.user.name}}, Дата написания - {{item.created_date}}
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
