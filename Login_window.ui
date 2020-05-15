@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Авторизация</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -200,24 +200,6 @@ color: rgb(170, 0, 255);</string>
      <zorder>linepass</zorder>
      <zorder>pushButton</zorder>
      <zorder>checkBox</zorder>
-    </widget>
-    <widget class="QWidget" name="tab_3">
-     <attribute name="title">
-      <string>REgister</string>
-     </attribute>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>160</x>
-        <y>120</y>
-        <width>361</width>
-        <height>151</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Перейдите по ссылке для регистрации {ссылка}</string>
-      </property>
-     </widget>
     </widget>
    </widget>
   </widget>

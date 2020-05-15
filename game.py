@@ -136,6 +136,7 @@ def main(server, player_name='player'):
     key_send = True
 
     pygame.init()
+    pygame.display.set_caption('PZSO')
     size = width, height = 600, 600
     screen = pygame.display.set_mode(size)
 
